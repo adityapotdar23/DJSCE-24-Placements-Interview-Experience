@@ -1,0 +1,73 @@
+﻿Forcepoint Interview
+
+
+Test
+* Employability Tests ke jaise sections
+* Logical Reasoning, Verbal Reasoning (English Grammar), 1 Coding Question (different for all), Data Reading (Questions based on charts given), Core Computer Subjects Questions (DSA, Computer Networks, DBMS, OS) etc.
+
+
+L1 (Cloud Ops Technical Interview Round 1) (9.30-10.00 am)
+* Introduce yourself
+* When I told him about the AWS certifications in the introduction I was asked questions on that, as to what I learnt, different storage types (object,file,blocks).
+* Explain any one project in your resume
+* What is the difference between HDD and SSD. Which is better?
+* Moving on to Core Computer Subjects, in DSA, what is the difference between Array and Linked List, what are Stacks and Queues.
+* In Computer Networks, what is network, what is internet, what are IP addresses, difference between public and private IP address, what is IPv4/IPv6
+* In SQL, explain different types of joins in SQL. Write a query for finding the second highest salary in a table.
+* Write a function for finding palindromes.
+
+
+L2 (Cloud Ops Technical Interview Round 2) (Different Interviewer - Seemed to be in a high position in the Cloud Ops department) (11.00-11.30 am)
+* Introduce yourself
+* Mentioned AWS certifications again. Was then asked the difference between AWS EFS and AWS S3. What are the other storage services available (Ans - EBS). If I have an application that has generated 1GB data in a few months, which storage service would be ideal to store that data (Ans - S3 or EFS, as data size would be expected to grow in coming months, they are easily scalable). Which is slower - S3 or EFS, why? What is a VPC?
+* Moved on to advanced questions. How to connect a VPC to an EC2 instance? How to create and attach an internet gateway to a VPC?
+* The interviewer talked about what the company does, their products, what he does and what he expects from the new recruit and asked if I was interested in that.
+
+
+HR Interview (3.30-3.40 pm (yes, ten minutes))
+* Introduce yourself (outside of your resume)
+* What do you enjoy doing the most in your free time?
+* What does this opportunity mean to you?
+* Which one did you like more - offline college or online college?
+* Asked me if I had any questions
+
+
+Developer Interview  (5.15-6.00 pm) (was informed about this interview at 5.13 pm)
+* Introduce yourself
+* Programming questions like what is the keyword ‘static’, the four pillars of OOPs, can you call a main function explicitly, can you call a static function, who calls the main function, what is a compiler, what does a compiler do, what is a pointer, how does memory allocation take place when variables are declared, different types of memory (stack, heap)
+   * If “condition”
+printf(“Hello”)
+                Else
+                        printf(“World”)
+                (Modify the condition in such a way that it outputs “Hello World”, cannot modify existing print statements)
+* In OS, what is an OS, what are the functions of the OS, what is a program, what is a process, how is a program executed.
+* In SQL, the same query was asked as in L1 (finding second highest salary)
+* In DSA, difference between array and linked list (same as L1) and which one is better, how do you reverse a linked list (pseudocode), how to detect a loop in a linked list, how to implement a stack using queues and queues using stacks.
+* Puzzles
+   * A man living in a 20-storey building lived on the 12th floor. When going to the ground floor he went using the lift. When going back to his apartment alone, he used the lift till the 7th floor and then took the stairs till the 12th. However, when he had company, he used the lift all the way till the 12th. What could be the possible reason?
+   * You have two hour glasses of 4 minutes and 7 minutes. How would you find out 9 minutes using them?
+   * Total number of squares on a chessboard. (not 64, ALL squares)
+   * A shop sells 1 chocolate at ₹1. You can exchange 3 wrappers for 1 chocolate. If you have ₹15, how many chocolates can you get and how many wrappers left?
+
+
+
+
+
+
+Answers:
+Programming question
+* If (!printf(“Hello”))
+printf(“Hello”)
+        Else
+                printf(“World”)
+Puzzles
+* I was stuck on this for a good five minutes and could not answer, I looked it up later and the answer was that HE WAS A DWARF and couldn’t reach the buttons over 7!!!! (Yep, ikr)
+* https://www.geeksforgeeks.org/puzzle-27-hourglasses-puzzle/
+* Sum of the squares of 1,2,..,8. Comes out to be 204
+* ₹15 = 15 chocolates = 15 wrappers
+15 wrappers = 5 chocolates (total of 20) = 5 wrappers
+5 wrappers = 1 chocolate (total of 21) + 2 wrappers = 3 wrappers
+3 wrappers = 1 chocolate (total of 22) = 1 wrapper
+
+
+So you will have 22 chocolates and 1 wrapper
