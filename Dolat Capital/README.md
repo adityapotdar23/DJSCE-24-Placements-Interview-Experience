@@ -1,1 +1,0 @@
-Dolat Capital Interview Experience
